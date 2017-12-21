@@ -1,22 +1,93 @@
 html, body {
   height: 100%;
+  font-family: 'Montserrat', sans-serif !important;
 }
 
 header {
-  background-color: red;
+  background-color: darkgray;
+  padding: 0 4em !important;
+}
+
+header.flex-parent {
+  align-content: center;
+}
+
+header li {
+  display: inline;
+  position: relative;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li a {
+  display: inline;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
 
 main {
-  height: 85%;
-  background-color: blue;
+  height: 74%;
+  background-color: darkgray;
+}
+main .flex-child {
+  background-color: blueviolet;
+  margin-right: 4em;
+  margin-left: 4em;
+
 }
 
+/*Unterstrich-Effekt*/
+/*
+header a {
+  color: inherit;
+  cursor: pointer;
+}
+
+header ul li a::after {
+  background: purple;
+  width: 20em;
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 3px;
+  right: 100%;
+  transform: scaleX(0);
+  transition: 0.2s ease-in-out;
+}
+
+
+header ul li a:hover::after {
+  transform: scaleX(1);
+}
+*/
+
 footer {
-  background-color: yellow;
+  background-color: darkgray;
+  padding: 0 4em !important;
+}
+
+footer section{
+  text-align: center;
+}
+
+footer.flex-parent {
+  align-content: center;
+}
+
+footer a {
+  text-decoration: none;
+  color: black;
 }
 
 header, footer {
-  height: 7.5%;
+  height: 13%;
 }
 
 .flex-parent {
@@ -26,5 +97,17 @@ header, footer {
 
 .flex-child {
   flex-grow: 1;
+}
+
+header .flex-child, footer .flex-child {
+
+}
+
+header .flex-child:nth-child(1),footer .flex-child:nth-child(1) {
+  text-align: left;
+}
+
+header .flex-child:nth-child(2),footer .flex-child:nth-child(2) {
+  text-align: right;
 }
 //
