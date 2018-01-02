@@ -9,7 +9,12 @@ header {
 }
 
 header.flex-parent {
-  align-content: center;
+}
+
+.logo {
+  height: 80%;
+
+
 }
 
 header li {
@@ -22,6 +27,7 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
+
 }
 
 li a {
@@ -29,10 +35,17 @@ li a {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  color: black;
+  transition: all 500ms;
+}
+
+li a:hover {
+  color: white;
+  font-size: 1.1em;
 }
 
 main {
-  height: 74%;
+  height: 70%;
   background-color: darkgray;
 }
 main .flex-child {
@@ -41,6 +54,7 @@ main .flex-child {
   margin-left: 4em;
 
 }
+
 
 /*Unterstrich-Effekt*/
 /*
@@ -87,7 +101,7 @@ footer a {
 }
 
 header, footer {
-  height: 13%;
+  height: 15%;
 }
 
 .flex-parent {
