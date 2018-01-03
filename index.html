@@ -1,11 +1,15 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
     <meta charset="UTF-8">
     <title>3D Work</title>
 
     <link rel="stylesheet" type="text/css" href="stylesheets/main.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="scroll.js"></script>
+
 </head>
 <body>
 
@@ -21,10 +25,10 @@
     <!-- Navigation -->
     <nav>
         <ul>
-            <li><a href="">Startseite</a> /</li>
-            <li><a href="">Über Uns</a> /</li>
-            <li><a href="">Leistungen</a> /</li>
-            <li><a href="">Kontakt</a> /</li>
+            <li><a href="#Startseite">Startseite</a></li>
+            <li><a href="#UeberUns">Über Uns</a></li>
+            <li><a href="#Leistungen">Leistungen</a></li>
+            <li><a href="#Kontakt">Kontakt</a> /</li>
         </ul>
     </nav>
 
@@ -34,7 +38,7 @@
 <!-- Webseite -->
 <!-- ###########################################################################################################-->
 
-<section id="pf_wrapper">
+
     <!-- ###########################################################################################################-->
     <!-- Startseite -->
     <!-- ###########################################################################################################-->
@@ -42,7 +46,7 @@
     <section id="Startseite" class="pf_page">
 
         <!-- Headline -->
-        <h2>Ihr Partner für Holz</h2>
+        <h2>Ihr Partner für 3D Produkte</h2>
         <div class="pf_h2_balken"></div>
 
         <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
@@ -130,26 +134,40 @@
         <!-- ###########################################################################################################-->
 
     <section id="Kontakt" class="pf_page">
+
         <!-- Headline -->
-        <h2>Leiszungen</h2>
+        <h2>Kontakt</h2>
         <div class="pf_h2_balken"></div>
 
         <!-- Content -->
-        <article class="pf_leistungen">
+        <article class="pf_kontakt">
 
-        <ul>
-            <li class="pf_handarbeit">
-                <h3>Handarbeit</h3>
-                <div class="pf_h3_balken"></div>
-                <div class="pf_tag_line">
-                    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
-                        At vero eos et accusam et justo duo dolores et ea rebum.</p>
-                </div>
-            </li>
-    </section>
+               <ul>
+                   <li><span></span> <a href="info@design.de"></a></li>
+                   <li><span></span> Carl-Diem-Strasse 9, 70180 Furtwangen</li>
+                   <li><span></span> 0176 / 446702309</li>
+               </ul>
+        </article>
+    <!-- Footer -->
         <footer>
 
-</footer>
+            <!-- Logo -->
+            <div class="pf_logo"></div>
+
+            <!-- Metanaviagation -->
+            <nav id="pf_meta_nav">
+                <ul>
+                    <a href=""><li>Impressum</li></a>
+                    <a href=""><li>Datenschutz</li></a>
+
+                </ul>
+            </nav>
+
+            <!-- Copyright -->
+            <div id="pf_copyright">Design by Paul Furmaniak</div>
+        </footer>
+
+</section>
 </body>
 
 </html>
