@@ -120,6 +120,11 @@ header:hover > nav ul li a {
   background-size: cover;
   background-attachment: fixed; }
 
+#Startseite #pf_intro {
+  position: absolute;
+  bottom: 50px;
+  left: 50px; }
+
 #Startseite #pf_intro h2 {
   text-align: left;
   margin: 240px 0 0 0 !important;
@@ -127,12 +132,27 @@ header:hover > nav ul li a {
   line-height: 90px; }
 
 #Startseite #pf_intro .pf_h2_balken {
-  margin: 0 0 20px 0; }
+  margin: 10px 0 20px 0; }
 
 #Startseite #pf_intro p {
   margin: 0 0 20px 0;
   max-width: 300px; }
 
+@media screen and (max-width: 600px) {
+  #Startseite #pf_intro {
+    left: 10%;
+    width: 80%; }
+
+  #Startseite #pf_intro h2 {
+    text-align: left;
+    margin: 0;
+    font-size: 40px !important;
+    line-height: 50px; }
+
+  #Startseite #pf_intro p {
+    max-width: 300px;
+    width: 100%;
+    text-align: justify; } }
 /* ###################################################################### */
 /* Leistungen */
 /* ###################################################################### */
@@ -336,7 +356,7 @@ h2, #UeberUns .pf_motto_bg article p, #Leistungen .pf_leistungen h3 {
   text-transform: uppercase;
   padding: 10px 30px 10px 30px;
   display: inline-block;
-  margin: 10px 0 20px 50px; }
+  margin: 10px 0 20px 0; }
 
 #Startseite .pf_button {
   border: 2px solid white; }
