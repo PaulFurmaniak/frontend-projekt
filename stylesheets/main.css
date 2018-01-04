@@ -8,32 +8,35 @@ body, html {
   width: 100%;
   height: 100%; }
 
-a {
-  text-decoration: none; }
+.pf_h2_balken {
+  margin: 10px auto 10px auto;
+  height: 5px;
+  width: 80px; }
 
 /* ###################################################################### */
 /* Zusammengefaste Klassen  */
 /* ###################################################################### */
-footer {
+footer, header, #Startseite .pf_h2_balken, #Kontakt .pf_h2_balken, #UeberUns, #Leistungen {
   background: #fff; }
 
 .pf_page {
   background: #444444; }
 
-#Kontakt h2 {
+#Kontakt h2, #Startseite h2, #Startseite p, #Kontakt .pf_kontakt, #Kontakt .pf_kontakt a,
+#UeberUns .pf_motto_bg article p, #Leistungen .pf_leistungen p, #Leistungen .pf_leistungen h3 {
   color: #fff; }
 
 p, a, header, nav ul li a, header nav ul li {
   color: #999; }
 
+footer, footer a {
+  color: #444; }
+
+#UeberUns .pf_h2_balken, #Leistungen .pf_h2_balken {
+  background: #111; }
+
 #UeberUns h2, #Leistungen h2, header nav ul li a:hover {
   color: #111; }
-
-p, header nav ul li {
-  font-family: ‘Lato‘,sans-serif; }
-
-h2 {
-  font-family: "alternate-gothic-no-1-d", Arial, sans-serif; }
 
 header, header nav ul li a, header nav ul, header #pf_logo {
   transition: all 300ms;
@@ -50,6 +53,206 @@ header, header nav ul li a, header nav ul, header #pf_logo {
   min-height: 100%;
   overflow: hidden;
   float: left; }
+
+/* ###################################################################### */
+/* Header */
+/* ###################################################################### */
+header {
+  position: fixed;
+  z-index: 99;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 40px; }
+
+header #pf_logo {
+  float: left;
+  width: 200px;
+  margin: 3px 0 0 50px; }
+
+header #pf_logo img {
+  width: 100%;
+  height: auto; }
+
+header nav {
+  float: right;
+  height: 40px;
+  margin: 0;
+  padding: 0; }
+
+header nav ul {
+  margin: 12px 8px 0 0;
+  padding: 0; }
+
+header nav ul li {
+  margin: 0 10px 0 0;
+  padding: 0;
+  list-style: none;
+  float: left; }
+
+header nav ul li a {
+  text-transform: uppercase;
+  font-size: 12px; }
+
+/* ###################################################################### */
+/* Vergrößerung vom Header */
+/* ###################################################################### */
+header:hover {
+  height: 70px; }
+
+header:hover > #pf_logo {
+  width: 300px;
+  margin: 10px 0 0 50px; }
+
+header:hover > nav ul {
+  margin: 26px 20px 0 0; }
+
+header:hover > nav ul li a {
+  font-size: 15px; }
+
+/* ###################################################################### */
+/* Startseite */
+/* ###################################################################### */
+#Startseite {
+  background: url("../images/start_bg_vs.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed; }
+
+#Startseite #pf_intro h2 {
+  text-align: left;
+  margin: 240px 0 0 0 !important;
+  font-size: 80px;
+  line-height: 90px; }
+
+#Startseite #pf_intro .pf_h2_balken {
+  margin: 0 0 20px 0; }
+
+#Startseite #pf_intro p {
+  margin: 0 0 20px 0;
+  max-width: 300px; }
+
+/* ###################################################################### */
+/* Leistungen */
+/* ###################################################################### */
+#Leistungen .pf_leistungen .pf_handarbeit {
+  background: url(../images/stony.jpg);
+  background-attachment: fixed; }
+
+#Leistungen .pf_leistungen .pf_projekte {
+  background: url(../images/V3.jpg);
+  background-attachment: fixed; }
+
+#Leistungen .pf_leistungen .pf_moebel_naturholz {
+  background: url(../images/beton.jpg);
+  background-attachment: fixed; }
+
+#Leistungen .pf_leistungen {
+  width: 90%;
+  margin: 50px auto 0 auto; }
+
+#Leistungen .pf_leistungen ul {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0; }
+
+#Leistungen .pf_leistungen ul li {
+  position: relative;
+  list-style: none;
+  width: 30%;
+  margin: 0 5% 0 0;
+  float: left;
+  background-position: left;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 650px; }
+
+#Leistungen .pf_leistungen ul li:last-child {
+  margin: 0 0 0 0; }
+
+#Leistungen .pf_leistungen ul li .pf_tag_line {
+  position: absolute;
+  bottom: 25px;
+  width: 80%;
+  left: 25px; }
+
+#Leistungen .pf_leistungen ul li .pf_tag_line .pf_h3_balken {
+  margin: 0 0 10px 0; }
+
+#Leistungen .pf_leistungen ul li .pf_tag_line p {
+  margin: 0;
+  padding: 0; }
+
+#Leistungen .pf_leistungen ul li .pf_tag_line h3 {
+  text-transform: uppercase;
+  font-size: 45px;
+  margin: 0 0 10px 0; }
+
+/* ###################################################################### */
+/* Kontakt */
+/* ###################################################################### */
+#Kontakt {
+  position: relative;
+  background: url(../images/Bifros_clear_emission.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed; }
+
+#Kontakt footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 150px;
+  text-align: center;
+  padding: 50px 0 0 0; }
+
+#Kontakt .pf_kontakt {
+  width: 100%;
+  text-align: center; }
+
+#Kontakt .pf_kontakt ul {
+  margin: 120px 0 0 0;
+  padding: 0; }
+
+#Kontakt .pf_kontakt ul li {
+  margin: 0 0 15px 0;
+  padding: 0;
+  list-style: none;
+  font-size: 17px; }
+
+#Kontakt .pf_kontakt ul li a {
+  text-decoration: underline; }
+
+#Kontakt footer .pf_logo {
+  width: 100%; }
+
+#Kontakt footer .pf_logo img {
+  width: 300px;
+  height: auto; }
+
+#Kontakt footer #pf_copyright {
+  margin: -5px 0 0 0;
+  padding: 0; }
+
+#Kontakt footer #pf_meta_nav {
+  margin: 20px 0 0 0; }
+
+#Kontakt footer #pf_meta_nav ul {
+  margin: 0;
+  padding: 0; }
+
+#Kontakt footer #pf_meta_nav ul li {
+  margin: 0;
+  padding: 0 2px 0 2px;
+  list-style: none;
+  display: inline;
+  border-right: 1px solid #666; }
+
+#Kontakt footer #pf_meta_nav ul li:last-child {
+  border: none; }
 
 /*
 Colors
@@ -94,6 +297,77 @@ table {
 /* Scrollbar for Webkit-Browsers */
 ::-webkit-scrollbar {
   display: none; }
+
+a {
+  text-decoration: none; }
+
+h2 {
+  text-transform: uppercase;
+  text-align: center;
+  margin: 100px auto 0 auto !important;
+  font-size: 60px !important; }
+
+p, header nav ul li, footer, #Kontakt .pf_kontakt {
+  font-family: ‘Lato‘,sans-serif !important;
+  font-weight: 300 !important;
+  line-height: 25px !important;
+  word-spacing: 3px; }
+
+h2, #UeberUns .pf_motto_bg article p, #Leistungen .pf_leistungen h3 {
+  font-family: 'Anton', sans-serif !Important; }
+
+#Startseite a {
+  font-family: ‘Lato‘,sans-serif !important;
+  font-weight: 300 !important;
+  line-height: 25px !important;
+  word-spacing: 3px;
+  color: white; }
+
+#UeberUns .pf_motto_bg article p {
+  display: inline-block;
+  margin: 0 auto 0 auto;
+  width: 40%;
+  text-align: center;
+  font-size: 45px;
+  line-height: 60px !important;
+  text-transform: uppercase; }
+
+.pf_button {
+  text-transform: uppercase;
+  padding: 10px 30px 10px 30px;
+  display: inline-block;
+  margin: 10px 0 20px 50px; }
+
+#Startseite .pf_button {
+  border: 2px solid white; }
+
+/* ###################################################################### */
+/* Über Uns*/
+/* ###################################################################### */
+#UeberUns .pf_UeberUns {
+  width: 45%;
+  float: left;
+  margin: 50px 0 0 5%; }
+
+#UeberUns .pf_UeberUns:last-child {
+  width: 45%;
+  float: left;
+  margin: 50px 5% 0 0; }
+
+#UeberUns .pf_UeberUns article {
+  width: 70%;
+  text-align: center;
+  margin: 100px auto 100px auto;
+  min-height: 450px; }
+
+#UeberUns .pf_motto_bg {
+  background: url(../images/bifrost_pink.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed; }
+
+section {
+  margin-bottom: 40px; }
 
 body {
   font-size: 16px; }

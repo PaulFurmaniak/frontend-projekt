@@ -1,7 +1,7 @@
 <!DOCTYPE html>
-<html lang="en" xmlns="http://www.w3.org/1999/html">
+<html lang="en" xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html">
 <head>
-    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+
     <meta charset="UTF-8">
     <title>3D Work</title>
 
@@ -10,6 +10,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="scroll.js"></script>
 
+    <link href="https://fonts.googleapis.com/css?family=Anton|Roboto" rel="stylesheet">
 </head>
 <body>
 
@@ -20,7 +21,7 @@
 <header>
 
     <!-- Logo -->
-    <div id="pf_logo"></div>
+    <div id="pf_logo"><a href="#Startseite"><img src="Logo/Logo_3D_Werkstatt.png"></a></div>
 
     <!-- Navigation -->
     <nav>
@@ -46,14 +47,15 @@
     <section id="Startseite" class="pf_page">
 
         <!-- Headline -->
-        <h2>Ihr Partner für 3D Produkte</h2>
-        <div class="pf_h2_balken"></div>
+        <div id="pf_intro">
+            <h2>Ihr Partner<br> für 3D Produkte</h2>
+            <div class="pf_h2_balken"></div>
 
-        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
             At vero eos et accusam et justo duo dolores et ea rebum.</p>
 
-        <a href="" class="pf_button">Weiter</a>
-
+            <a href="" class="pf_button">Weiter</a>
+        </div>
     </section>
 
     <!-- ###########################################################################################################-->
@@ -67,7 +69,8 @@
         <div class="pf_h2_balken"></div>
 
         <!-- Content -->
-        <article class="UeberUns">
+        <article class="pf_UeberUns">
+            <article>
             <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
                 At vero eos et accusam et justo duo dolores et ea rebum.</p>
 
@@ -76,11 +79,13 @@
 
             <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
                 At vero eos et accusam et justo duo dolores et ea rebum.</p>
-
+            </article>
         </article>
 
-        <article class="UeberUns pf_motto_bg">
-            <p class="pf_motto">"Die Kunst hat das Handwerk nötiger als Handwerk die Kunst"</p>
+        <article class="pf_UeberUns pf_motto_bg">
+            <article>
+            <p class="pf_motto">"3D Kunst ist eine digitale Kunst"</p>
+            </article>
         </article>
 
     </section>
@@ -92,7 +97,7 @@
     <section id="Leistungen" class="pf_page">
 
         <!-- Headline -->
-        <h2>Leiszungen</h2>
+        <h2>Leistungen</h2>
         <div class="pf_h2_balken"></div>
 
         <!-- Content -->
@@ -100,27 +105,27 @@
 
             <ul>
                 <li class="pf_handarbeit">
-                    <h3>Handarbeit</h3>
-                    <div class="pf_h3_balken"></div>
                     <div class="pf_tag_line">
+                        <h3>Handarbeit</h3>
+                        <div class="pf_h3_balken"></div>
                         <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
                             At vero eos et accusam et justo duo dolores et ea rebum.</p>
                     </div>
                 </li>
 
                 <li class="pf_projekte">
-                    <h3>Projekte</h3>
-                    <div class="pf_h3_balken"></div>
                     <div class="pf_tag_line">
+                        <h3>Projekte</h3>
+                        <div class="pf_h3_balken"></div>
                         <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
                             At vero eos et accusam et justo duo dolores et ea rebum.</p>
                     </div>
                 </li>
 
                 <li class="pf_moebel_naturholz">
-                    <h3>Handarbeit</h3>
-                    <div class="pf_h3_balken"></div>
                     <div class="pf_tag_line">
+                        <h3>Handarbeit</h3>
+                        <div class="pf_h3_balken"></div>
                         <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
                             At vero eos et accusam et justo duo dolores et ea rebum.</p>
                     </div>
@@ -143,7 +148,7 @@
         <article class="pf_kontakt">
 
                <ul>
-                   <li><span></span> <a href="info@design.de"></a></li>
+                   <li><span></span> <a href="">info:at3Dpower.de</a></li>
                    <li><span></span> Carl-Diem-Strasse 9, 70180 Furtwangen</li>
                    <li><span></span> 0176 / 446702309</li>
                </ul>
@@ -152,7 +157,7 @@
         <footer>
 
             <!-- Logo -->
-            <div class="pf_logo"></div>
+            <div class="pf_logo"><a href="#Startseite"><img src="Logo/Logo_3D_Werkstatt.png"></a></div>
 
             <!-- Metanaviagation -->
             <nav id="pf_meta_nav">
