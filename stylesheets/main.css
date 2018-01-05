@@ -23,7 +23,7 @@ footer, header, #Startseite .pf_h2_balken, #Kontakt .pf_h2_balken, #UeberUns, #L
   background: #444444; }
 
 #Kontakt h2, #Startseite h2, #Startseite p, #Kontakt .pf_kontakt, #Kontakt .pf_kontakt a,
-#UeberUns .pf_motto_bg article p, #Leistungen .pf_leistungen p, #Leistungen .pf_leistungen h3 {
+#UeberUns .pf_motto_bg article .pf_motto, #Leistungen .pf_leistungen p, #Leistungen .pf_leistungen h3 {
   color: #fff; }
 
 p, a, header, nav ul li a, header nav ul li {
@@ -153,6 +153,55 @@ header:hover > nav ul li a {
     max-width: 300px;
     width: 100%;
     text-align: justify; } }
+/* ###################################################################### */
+/* Über Uns */
+/* ###################################################################### */
+#UeberUns .pf_motto_bg article .pf_motto {
+  display: inline-block;
+  margin: 0 auto 0 auto;
+  width: 40%;
+  text-align: center;
+  font-size: 45px;
+  line-height: 60px !important;
+  text-transform: uppercase; }
+
+@media screen and (max-width: 1100px) {
+  #UeberUns .pf_UeberUns article p {
+    text-align: justify; }
+
+  #UeberUns .pf_UeberUns {
+    width: 80%;
+    float: left;
+    margin: 50px 10% 0 10%; }
+
+  #UeberUns .pf_UeberUns:last-child {
+    width: 80%;
+    float: left;
+    margin: 50px 10% 0 10%; }
+
+  #UeberUns .pf_UeberUns article {
+    margin: 20px 0 0 0; }
+
+  #UeberUns .pf_motto_bg article .pf_motto {
+    font-size: 27px;
+    line-height: 22px;
+    width: 70%;
+    margin: 20px 0 20px 0; } }
+@media screen and (min-width: 1600px) {
+  #UeberUns .pf_motto_bg article .pf_motto {
+    font-size: 80px;
+    line-height: 150px;
+    width: 70%; } }
+@media screen and (min-width: 1800px) {
+  #UeberUns .pf_motto_bg article .pf_motto {
+    font-size: 100px;
+    line-height: 150px;
+    width: 70%; } }
+@media screen and (min-width: 2300px) {
+  #UeberUns .pf_motto_bg article .pf_motto {
+    font-size: 100px;
+    line-height: 190px;
+    width: 70%; } }
 /* ###################################################################### */
 /* Leistungen */
 /* ###################################################################### */
@@ -325,7 +374,7 @@ h2 {
   text-transform: uppercase;
   text-align: center;
   margin: 100px auto 0 auto !important;
-  font-size: 60px !important; }
+  font-size: 50px !important; }
 
 p, header nav ul li, footer, #Kontakt .pf_kontakt {
   font-family: ‘Lato‘,sans-serif !important;
@@ -333,7 +382,7 @@ p, header nav ul li, footer, #Kontakt .pf_kontakt {
   line-height: 25px !important;
   word-spacing: 3px; }
 
-h2, #UeberUns .pf_motto_bg article p, #Leistungen .pf_leistungen h3 {
+h2, #UeberUns .pf_motto_bg article .pf_motto, #Leistungen .pf_leistungen h3 {
   font-family: 'Anton', sans-serif !Important; }
 
 #Startseite a {
@@ -342,15 +391,6 @@ h2, #UeberUns .pf_motto_bg article p, #Leistungen .pf_leistungen h3 {
   line-height: 25px !important;
   word-spacing: 3px;
   color: white; }
-
-#UeberUns .pf_motto_bg article p {
-  display: inline-block;
-  margin: 0 auto 0 auto;
-  width: 40%;
-  text-align: center;
-  font-size: 45px;
-  line-height: 60px !important;
-  text-transform: uppercase; }
 
 .pf_button {
   text-transform: uppercase;
@@ -365,29 +405,25 @@ h2, #UeberUns .pf_motto_bg article p, #Leistungen .pf_leistungen h3 {
 /* Über Uns*/
 /* ###################################################################### */
 #UeberUns .pf_UeberUns {
-  width: 45%;
+  width: 42.5%;
   float: left;
-  margin: 50px 0 0 5%; }
+  margin: 50px 2.5% 0 5%; }
 
 #UeberUns .pf_UeberUns:last-child {
-  width: 45%;
+  width: 42.5%;
   float: left;
-  margin: 50px 5% 0 0; }
+  margin: 50px 5% 0 2.5%; }
 
 #UeberUns .pf_UeberUns article {
-  width: 70%;
+  width: 100%;
   text-align: center;
-  margin: 100px auto 100px auto;
-  min-height: 450px; }
+  margin: 100px auto 100px auto; }
 
 #UeberUns .pf_motto_bg {
   background: url(../images/bifrost_pink.jpg);
   background-position: center center;
   background-size: cover;
   background-attachment: fixed; }
-
-section {
-  margin-bottom: 40px; }
 
 body {
   font-size: 16px; }
