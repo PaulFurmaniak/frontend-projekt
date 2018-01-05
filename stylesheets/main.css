@@ -167,31 +167,36 @@ header:hover > nav ul li a {
 
 @media screen and (max-width: 1100px) {
   #UeberUns .pf_UeberUns article p {
-    text-align: justify; }
+    text-align: justify;
+    font-size: 16px; }
 
   #UeberUns .pf_UeberUns {
-    width: 80%;
-    float: left;
-    margin: 50px 10% 0 10%; }
+    width: 80% !important;
+    float: left !important;
+    margin: 50px 10% 0 10% !important; }
 
   #UeberUns .pf_UeberUns:last-child {
-    width: 80%;
-    float: left;
-    margin: 50px 10% 0 10%; }
+    width: 80% !important;
+    float: left !important;
+    margin: 50px 10% 0 10% !important; }
 
   #UeberUns .pf_UeberUns article {
-    margin: 20px 0 0 0; }
+    margin: 20px 0 0 0 !important; }
 
   #UeberUns .pf_motto_bg article .pf_motto {
-    font-size: 27px;
+    font-size: 50px;
     line-height: 22px;
     width: 70%;
     margin: 20px 0 20px 0; } }
 @media screen and (min-width: 1600px) {
   #UeberUns .pf_motto_bg article .pf_motto {
     font-size: 80px;
-    line-height: 150px;
-    width: 70%; } }
+    line-height: 100px !important;
+    width: 70%; }
+
+  #UeberUns .pf_UeberUns article p {
+    font-size: 24px;
+    line-height: 40px !important; } }
 @media screen and (min-width: 1800px) {
   #UeberUns .pf_motto_bg article .pf_motto {
     font-size: 100px;
@@ -236,7 +241,7 @@ header:hover > nav ul li a {
   background-position: left;
   background-size: cover;
   background-attachment: fixed;
-  min-height: 650px; }
+  min-height: 450px; }
 
 #Leistungen .pf_leistungen ul li:last-child {
   margin: 0 0 0 0; }
@@ -259,6 +264,35 @@ header:hover > nav ul li a {
   font-size: 45px;
   margin: 0 0 10px 0; }
 
+@media screen and (max-width: 1150px) {
+  #Leistungen {
+    width: 100%; }
+
+  #Leistungen .pf_leistungen ul {
+    height: 70%; }
+
+  #Leistungen .pf_leistungen ul li {
+    width: 80%;
+    margin: 0 10% 5% 10%; }
+
+  #Leistungen .pf_leistungen ul li .pf_tag_line {
+    position: relative;
+    float: left !important;
+    width: 80% !important;
+    margin: 20% 10% 5% 0; }
+
+  #Leistungen .pf_leistungen ul li .pf_tag_line h3 {
+    font-size: 40px;
+    line-height: 45px; }
+
+  #Leistungen .pf_leistungen ul li .pf_tag_line p {
+    margin: 0;
+    padding: 0;
+    float: left;
+    text-align: justify; }
+
+  #Leistungen .pf_leistungen ul li:last-child {
+    margin: 0 10% 5% 10%; } }
 /* ###################################################################### */
 /* Kontakt */
 /* ###################################################################### */
@@ -323,6 +357,16 @@ header:hover > nav ul li a {
 #Kontakt footer #pf_meta_nav ul li:last-child {
   border: none; }
 
+@media screen and (max-width: 800px) {
+  #Kontakt .pf_kontakt ul {
+    margin: 40px 0 0 0; }
+
+  #Kontakt footer {
+    height: 115px;
+    padding: 20px 0 0 0; }
+
+  #Kontakt footer #pf_meta_nav {
+    margin: 0; } }
 /*
 Colors
  */
