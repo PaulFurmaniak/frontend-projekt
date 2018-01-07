@@ -20,8 +20,7 @@ footer, header, #Startseite .pf_h2_balken, #Kontakt .pf_h2_balken, #UeberUns, #L
 }
 #Kontakt h2, #Startseite h2, #Startseite p, #Kontakt .pf_kontakt, #Kontakt .pf_kontakt a,
 #UeberUns .pf_motto_bg article .pf_motto, #Leistungen .pf_leistungen p, #Leistungen .pf_leistungen h3 {
-  color: #fff;
-}
+  color: white;}
 
 p, a, header, nav ul li a, header nav ul li {
   color: #999;
@@ -120,42 +119,9 @@ header:hover > nav ul li a {font-size: 15px}
 @media screen and (max-width: 600px){
   #Startseite #pf_intro { left:10%; width: 80%;}
   #Startseite #pf_intro h2 { text-align: left; margin: 0; font-size: 40px !important; line-height: 50px; }
-  #Startseite #pf_intro p { max-width: 300px; width: 100%; text-align: justify;}}
-
-/* ###################################################################### */
-/* Über Uns */
-/* ###################################################################### */
-
-#UeberUns .pf_motto_bg article .pf_motto {
-  display: inline-block;
-  margin: 0 auto 0 auto;
-  width: 40%;
-  text-align: center;
-  font-size: 45px;
-  line-height: 60px!important;
-  text-transform: uppercase;
+  #Startseite #pf_intro p { max-width: 300px; width: 100%; text-align: justify;}
 }
 
-@media screen and (max-width: 1100px) {
-  #UeberUns .pf_UeberUns article p { text-align: justify; font-size: 16px;}
-  #UeberUns .pf_UeberUns { width: 80%!important; float: left!important; margin: 50px 10% 0 10%!important; }
-  #UeberUns .pf_UeberUns:last-child { width: 80%!important; float: left!important; margin: 50px 10% 0 10%!important; }
-  #UeberUns .pf_UeberUns article { margin: 20px 0 0 0!important; }
-  #UeberUns .pf_motto_bg article .pf_motto { font-size: 50px; line-height: 22px; width: 70%; margin: 20px 0 20px 0; }
-}
-
-@media screen and (min-width: 1600px) {
-  #UeberUns .pf_motto_bg article .pf_motto { font-size: 80px; line-height: 100px!important; width: 70%;}
-  #UeberUns .pf_UeberUns article p { font-size: 24px; line-height  :40px!important;}
-}
-
-@media screen and (min-width: 1800px) {
-  #UeberUns .pf_motto_bg article .pf_motto { font-size: 100px; line-height: 150px; width: 70%;}
-}
-
-@media screen and (min-width: 2300px) {
-  #UeberUns .pf_motto_bg article .pf_motto { font-size: 100px; line-height: 190px; width: 70%;}
-}
 
 /* ###################################################################### */
 /* Leistungen */
@@ -165,28 +131,6 @@ header:hover > nav ul li a {font-size: 15px}
 #Leistungen .pf_leistungen .pf_handarbeit { background: url(../images/stony.jpg); background-attachment: fixed;}
 #Leistungen .pf_leistungen .pf_projekte { background: url(../images/V3.jpg); background-attachment: fixed;}
 #Leistungen .pf_leistungen .pf_moebel_naturholz { background: url(../images/beton.jpg); background-attachment: fixed;}
-
-
-#Leistungen .pf_leistungen { width: 90%; margin: 50px auto 0 auto;}
-#Leistungen .pf_leistungen ul { width: 100%; height:100%; margin: 0; padding: 0;}
-#Leistungen .pf_leistungen ul li { position: relative; list-style: none; width: 30%; margin: 0 5% 0 0; float: left;background-position: left ; background-size: cover; background-attachment: fixed; min-height: 450px;}
-#Leistungen .pf_leistungen ul li:last-child { margin: 0 0 0 0;}
-
-#Leistungen .pf_leistungen ul li .pf_tag_line { position: absolute; bottom: 25px; width: 80%; left: 25px;}
-#Leistungen .pf_leistungen ul li .pf_tag_line .pf_h3_balken { margin: 0 0 10px 0;}
-#Leistungen .pf_leistungen ul li .pf_tag_line p { margin: 0; padding: 0;}
-#Leistungen .pf_leistungen ul li .pf_tag_line h3 { text-transform: uppercase; font-size: 45px; margin: 0 0 10px 0;}
-
-
-@media screen and (max-width: 1150px) {
-  #Leistungen { width: 100%;}
-  #Leistungen .pf_leistungen ul {height: 70%;}
-  #Leistungen .pf_leistungen ul li { width: 80%; margin: 0 10% 5% 10%;}
-  #Leistungen .pf_leistungen ul li .pf_tag_line { position: relative; float: left!important; width: 80%!important; margin: 20% 10% 5% 0;}
-  #Leistungen .pf_leistungen ul li .pf_tag_line h3 { font-size: 40px; line-height: 45px;}
-  #Leistungen .pf_leistungen ul li .pf_tag_line p {margin: 0; padding: 0; float: left; text-align: justify;}
-  #Leistungen .pf_leistungen ul li:last-child { margin: 0 10% 5% 10%;}
-}
 
 
 
@@ -225,6 +169,8 @@ header:hover > nav ul li a {font-size: 15px}
   #Kontakt .pf_kontakt ul { margin: 40px 0 0 0; }
   #Kontakt footer { height: 115px; padding: 20px 0 0 0; }
   #Kontakt footer #pf_meta_nav { margin: 0;}
+  #Kontakt footer .pf_logo img {width: 240px; height: auto;}
+
 }
 
 
