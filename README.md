@@ -55,3 +55,19 @@ Der Inhalt wird in diesem Bereich zentriert.
 # Styleguide
 
 ![Styleguide-Image](https://github.com/PaulFurmaniak/frontend-projekt/blob/master/Styleguide.jpg)
+
+**Modul**
+* 1: header
+
+**Inhalt:**
+* 1A: Logo 
+* 1B: Menü 
+
+**Modul**
+* 2: Startseite
+* 2A: Intro 
+
+**Inhalt:**
+* 2B: Überschrift
+* 2C: Textbereich
+* 2D: Button
