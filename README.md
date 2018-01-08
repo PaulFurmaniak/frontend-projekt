@@ -54,4 +54,4 @@ Der Inhalt wird in diesem Bereich zentriert.
 
 # Styleguide
 
-![Styleguide-Image](https://github.com/PaulFurmaniak/frontend-projekt/blob/master/img/Styleguide.jpg)
+![Styleguide-Image](https://github.com/PaulFurmaniak/frontend-projekt/blob/master/Styleguide.jpg)
