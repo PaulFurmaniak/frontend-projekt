@@ -1,6 +1,4 @@
-# Frontend-projekt
- 
- **__**3D Werkstatt Portfolio**__**
+# 3D Werkstatt Portfolio
  
 # Projektstsckbrief:
  
