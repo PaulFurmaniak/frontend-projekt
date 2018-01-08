@@ -54,7 +54,7 @@ Der Inhalt wird in diesem Bereich zentriert.
 
 # Styleguide
 
-![Styleguide-Image](https://github.com/PaulFurmaniak/frontend-projekt/blob/master/Styleguide.jpg)
+![Styleguide-Image](https://github.com/PaulFurmaniak/frontend-projekt/blob/master/Styleguide_v2.jpg)
 
 **Modul**
 * 1: header
