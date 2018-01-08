@@ -51,3 +51,7 @@ Der Inhalt wird in diesem Bereich zentriert.
 - Ablagestruktur: http://thesassway.com/beginner/how-to-structure-a-sass-project
 - Visuelles Hauptmittel ist das alle Hintergründe attachment-fixed sind und dadurch ein schöner Effekt beim scrollen entsteht.
 - CSS Framework: Nein.
+
+# Styleguide
+
+![Styleguide-Image](https://github.com/PaulFurmaniak/frontend-projekt/blob/master/img/Styleguide.jpg)
