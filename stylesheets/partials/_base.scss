@@ -2,6 +2,7 @@
 /* HTML standart Tags */
 /* ###################################################################### */
 
+
 body, html { margin: 0; padding: 0; width: 100%; height: 100%;}
 
 .pf_h2_balken {margin: 10px auto 10px auto; height: 5px; width: 80px; }
@@ -10,6 +11,7 @@ body, html { margin: 0; padding: 0; width: 100%; height: 100%;}
 /* ###################################################################### */
 /* Zusammengefaste Klassen  */
 /* ###################################################################### */
+
 
 footer, header, #Startseite .pf_h2_balken, #Kontakt .pf_h2_balken, #UeberUns, #Leistungen {
   background: #fff;
@@ -45,13 +47,16 @@ header, header nav ul li a, header nav ul, header #pf_logo{
 /* Umfassende Objekte und Klassen */
 /* ###################################################################### */
 
+
 .pf_page {
   width: 100%; min-height: 100%; overflow:hidden; float:left;
+
 }
 
 /* ###################################################################### */
 /* Header */
 /* ###################################################################### */
+
 
 header {
   position:fixed; z-index:99; top:0; left:0; right: 0; width:100%; height:40px;
@@ -86,6 +91,7 @@ header nav ul li a {
 /* Vergrößerung vom Header */
 /* ###################################################################### */
 
+
 header:hover {
   height: 70px;
 }
@@ -97,9 +103,11 @@ header:hover > #pf_logo {
 header:hover > nav ul {margin: 26px 20px 0 0;}
 header:hover > nav ul li a {font-size: 15px}
 
+
 /* ###################################################################### */
 /* Startseite */
 /* ###################################################################### */
+
 
 #Startseite {
   background:url("../images/start_bg_vs.jpg");
@@ -137,6 +145,7 @@ header:hover > nav ul li a {font-size: 15px}
 /* ###################################################################### */
 /* Kontakt */
 /* ###################################################################### */
+
 
 #Kontakt {
   position: relative;
