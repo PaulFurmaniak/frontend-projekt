@@ -2,7 +2,7 @@
  
  **__**3D Werkstatt Portfolio**__**
  
- #Projektstsckbrief:
+# Projektstsckbrief:
  
 Bei diesem Projekt handelt es sich um eine vereinfachte Portfolioseite von einem Künstler Der Digitalen Kunst.
 In dem Headerbereich wird es oben rechts eine Menülesiste geben und auf der linken das Logo/Name der 3D Werkstatt.
@@ -10,7 +10,7 @@ Das Portfolio wird ein One-Pager und vertikal scrollbar.
 Auf der Seite soll man was über den Künstler sowie über die verschiedenen Projekte des Künstlers erfahren können. 
 Ebenfals auch die Kontakdaten.
  
-#Proforma-Lastenheft:
+# Proforma-Lastenheft:
       
 **Headerbereich:**
  
@@ -46,7 +46,7 @@ In deisem bereich sind auch die Texte zentriert und überinander angeordent : Ma
 Hier ist das Logo zu sehen und drunter die links zum Impressum und Datenschutz.
 Der Inhalt wird in diesem Bereich zentriert.
      
-#Proforma-Pflichtenheft:
+# Proforma-Pflichtenheft:
  
 - Ich arbeite mit Github und der Entwicklungsumgebung PHPStorm.
 - Git Workflow: Feature Branch Workfow
